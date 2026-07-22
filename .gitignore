@@ -1,0 +1,11 @@
+# Generated Angular and Node.js files
+Angular/**/node_modules/
+Angular/**/.angular/
+Angular/**/dist/
+Angular/**/coverage/
+Angular/**/out-tsc/
+Angular/**/tmp/
+
+# Tooling logs
+Angular/**/npm-debug.log
+Angular/**/yarn-error.log
