@@ -1,6 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Demo } from './demo/demo';
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,Demo],
@@ -8,6 +9,5 @@ import { Demo } from './demo/demo';
   styleUrl: './app.css'
 })
 export class App {
-  public Name : string= "App Component";
-  protected readonly title = signal('EventBindind');
+  protected readonly title = signal('stylebinding');
 }
