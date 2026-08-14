@@ -1,0 +1,10 @@
+{
+  "name": "mean-with-crud",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "cd Server && npm start",
+    "client": "cd Client && npm start",
+    "build": "cd Client && npm run build"
+  }
+}

@@ -13,6 +13,24 @@ Expected Output:
 Second Maximum number is 77
 
 */
+// 10,4,5,7
+
+function SortArray(Arr : number[]):number
+{
+    for(var i = 0; i < Arr.length;i++)
+    {
+        for(var j = 1 ;j < Arr.length;j++)
+        {
+            if (Arr[j] < Arr[i])
+            {
+                Arr[i] = Arr[j];
+            }
+
+        }
+    }
+
+
+}
 
 function SeondLarge(Arr:number[]):number
 {
@@ -46,7 +64,7 @@ function SeondLarge(Arr:number[]):number
 
     return  sLarge;
 }
-
+SortedArray(Arr)
 var Arr = new Array(23,89,6,29,56,45,77,32)
 
 var iRet : number = SeondLarge(Arr);

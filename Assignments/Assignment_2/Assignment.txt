@@ -22,7 +22,8 @@ Expected Output:
 Addition is 52
 Question 3: Find the Second Largest Number in an Array
 
-Write a TypeScript program which contains one function named Maximum. That function accepts an array of numbers and returns the second largest number from the array.
+Write a TypeScript program which contains one function named Maximum. 
+That function accepts an array of numbers and returns the second largest number from the array.
 
 Input:
 
@@ -31,6 +32,8 @@ Input:
 Expected Output:
 
 Second Maximum number is 77
+
+
 Question 4: Check Armstrong Number
 
 Write a TypeScript program which contains one arrow function named ChkArmstrong. That function accepts one number and checks whether the number is an Armstrong number or not.
