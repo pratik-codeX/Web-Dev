@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Console } from 'console';
+import { ConnectableObservable } from 'rxjs';
 
 @Component({
   selector: 'app-demo',
@@ -6,9 +8,11 @@ import { Component } from '@angular/core';
   templateUrl: './demo.html',
   styleUrl: './demo.css',
 })
+
 export class Demo 
 {
-  public mycolor = 'orange';
-  public veg = "false";
-  name = "Hello from Demo Interpolation";
+    display():void
+    {
+      console.log("Jay Ganesh...");
+    }
 }
